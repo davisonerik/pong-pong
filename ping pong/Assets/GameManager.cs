@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
 
         Paddle paddle1 = Instatiate(paddle) as Paddle;
         Paddle paddle = Instatiate(paddle) as Paddle;
-        paddle1.Init(true);
-        paddle2.Init(true);
+        paddle1.Init(true); // direita
+        paddle2.Init(false); // esquerda
     }
 
    
